@@ -1,1 +1,4 @@
 # AT_autotest
+
+
+CHECKING COMMANDS
