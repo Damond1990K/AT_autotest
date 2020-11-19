@@ -1,0 +1,291 @@
+{
+  "id": "de38862e-c3a5-4abd-9103-f8c96f96a972",
+  "version": "2.0",
+  "name": "TEST1",
+  "url": "https://vk.com",
+  "tests": [{
+    "id": "846831c3-ac92-40ef-83e7-a1db55cf8594",
+    "name": "test vk",
+    "commands": [{
+      "id": "521ef004-7767-44e3-8b53-f5dbcac51cba",
+      "comment": "",
+      "command": "open",
+      "target": "/jetinbrain",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5557830-a732-485f-bafd-c0b58da371f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1177x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2284ad3-acca-4b22-99ad-05681b52ed43",
+      "comment": "",
+      "command": "click",
+      "target": "css=#l_fr .left_label",
+      "targets": [
+        ["css=#l_fr .left_label", "css:finder"],
+        ["xpath=//li[@id='l_fr']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Друзья')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1c27a9e-bfb8-408f-9156-5acd4168ab4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=invite_button",
+      "targets": [
+        ["id=invite_button", "id"],
+        ["css=#invite_button", "css:finder"],
+        ["xpath=//button[@id='invite_button']", "xpath:attributes"],
+        ["xpath=//div[@id='friends_tabs_wrap']/h2/ul/button", "xpath:idRelative"],
+        ["xpath=//ul/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Найти друзей')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a70436ae-0f2d-43c1-8ca5-18f9f2d096fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.friends_find_user:nth-child(3) .friends_find_user_img",
+      "targets": [
+        ["css=.friends_find_user:nth-child(3) .friends_find_user_img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://sun2.beltelecom-by-minsk.userapi.com/impf/c633128/v633128371/150c2/-x69n8UBz_A.jpg?size=200x0&quality=96&crop=219,661,1036,1036&sign=18354758085a7f28fb407e76c75c420e&ava=1')]", "xpath:img"],
+        ["xpath=//div[@id='friends_list']/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdcf3174-1368-413d-a344-bc2d0e885669",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.friends_find_user:nth-child(3) .friends_find_user_img",
+      "targets": [
+        ["css=.friends_find_user:nth-child(3) .friends_find_user_img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://sun2.beltelecom-by-minsk.userapi.com/impf/c633128/v633128371/150c2/-x69n8UBz_A.jpg?size=200x0&quality=96&crop=219,661,1036,1036&sign=18354758085a7f28fb407e76c75c420e&ava=1')]", "xpath:img"],
+        ["xpath=//div[@id='friends_list']/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b100741f-96d6-411f-aeac-9bb6387a73f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_filters_minimized_text",
+      "targets": [
+        ["css=.search_filters_minimized_text", "css:finder"],
+        ["xpath=//div[@id='search_filters_minimized']/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc367eaa-1a84-4023-92ff-201d4db958b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='container6']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b0b3f47-c9a0-48e1-8f7c-d6a2f8e6428f",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=option_list_options_container_6_2",
+      "targets": [
+        ["id=option_list_options_container_6_2", "id"],
+        ["css=#option_list_options_container_6_2", "css:finder"],
+        ["xpath=//li[@id='option_list_options_container_6_2']", "xpath:attributes"],
+        ["xpath=//ul[@id='list_options_container_6']/li[2]", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Беларусь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e492645d-667a-4212-98eb-62722a9e0151",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=school_header",
+      "targets": [
+        ["id=school_header", "id"],
+        ["css=#school_header", "css:finder"],
+        ["xpath=//div[@id='school_header']", "xpath:attributes"],
+        ["xpath=//form[@id='filter_form']/div[2]/div/div[6]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c2243c-f855-4593-b04b-305b3ab4ee36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui_filters_block",
+      "targets": [
+        ["css=.ui_filters_block", "css:finder"],
+        ["xpath=//form[@id='filter_form']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e226af3-6217-4c67-a9f9-ed2d04ad8a01",
+      "comment": "",
+      "command": "click",
+      "target": "css=#container16 .selector_input",
+      "targets": [
+        ["css=#container16 .selector_input", "css:finder"],
+        ["xpath=(//input[@type='text'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='container16']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "544940f8-098b-4d11-bfd6-5145a5661692",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=option_list_options_container_16_8",
+      "targets": [
+        ["id=option_list_options_container_16_8", "id"],
+        ["css=#option_list_options_container_16_8", "css:finder"],
+        ["xpath=//li[@id='option_list_options_container_16_8']", "xpath:attributes"],
+        ["xpath=//ul[@id='list_options_container_16']/li[8]", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/div/div/ul/li[8]", "xpath:position"],
+        ["xpath=//li[contains(.,'от 20')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2382510c-3202-49a1-b235-f96ba2e87cfd",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ui_filters_block",
+      "targets": [
+        ["css=.ui_filters_block", "css:finder"],
+        ["xpath=//form[@id='filter_form']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c09fa935-50ba-4272-b0f4-96978962b4df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui_filters_block",
+      "targets": [
+        ["css=.ui_filters_block", "css:finder"],
+        ["xpath=//form[@id='filter_form']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d4f64e3-5ee5-4648-a2f3-2bcd6c094d06",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6881417-cb06-45f2-8469-5b1586ec2b76",
+      "comment": "",
+      "command": "click",
+      "target": "css=#container17 .selector_input",
+      "targets": [
+        ["css=#container17 .selector_input", "css:finder"],
+        ["xpath=(//input[@type='text'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='container17']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[3]/div/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87133120-4475-44d7-89b7-7a9fcdcaccdc",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=option_list_options_container_17_25",
+      "targets": [
+        ["id=option_list_options_container_17_25", "id"],
+        ["css=#option_list_options_container_17_25", "css:finder"],
+        ["xpath=//li[@id='option_list_options_container_17_25']", "xpath:attributes"],
+        ["xpath=//ul[@id='list_options_container_17']/li[25]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ul/li[25]", "xpath:position"],
+        ["xpath=//li[contains(.,'до 43')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b2fbf4-2c2b-4b88-bbcb-ce544152c894",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.search_sep:nth-child(12)",
+      "targets": [
+        ["css=.search_sep:nth-child(12)", "css:finder"],
+        ["xpath=//form[@id='filter_form']/div[2]/div/div[10]", "xpath:idRelative"],
+        ["xpath=//div/div[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b71a2ab-3119-4fe2-aeaf-5a1e7f0b6b8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui_filters_block",
+      "targets": [
+        ["css=.ui_filters_block", "css:finder"],
+        ["xpath=//form[@id='filter_form']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bfcdf63-ef8e-432b-87db-8ff993261b06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radiobtn:nth-child(1)",
+      "targets": [
+        ["css=.radiobtn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@onclick=\"radiobtn(this, 1, 'sex'); cur.onSexChanged(1);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='cSex']/div", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1e9161c-01b0-4f8d-9356-077e52902cfd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1279)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38ed485e-2ab5-4265-a934-86dd7944f537",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Наташа Маньковская",
+      "targets": [
+        ["linkText=Наташа Маньковская", "linkText"],
+        ["css=#results > .people_row:nth-child(10) > .info a", "css:finder"],
+        ["xpath=//a[contains(text(),'Наташа Маньковская')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return nav.go(this, event);'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='results']/div[10]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/mankovskaya_natasha')])[2]", "xpath:href"],
+        ["xpath=//div[10]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Наташа Маньковская')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4304b134-5303-418d-9db3-f841ab88fff7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "24e7d771-52fb-4789-b95e-4891261702cd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["846831c3-ac92-40ef-83e7-a1db55cf8594"]
+  }],
+  "urls": ["https://vk.com/"],
+  "plugins": []
+}
