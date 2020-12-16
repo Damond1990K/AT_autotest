@@ -1,0 +1,190 @@
+{
+  "id": "d6621398-7629-4a5c-9b88-63944e0f3dee",
+  "version": "2.0",
+  "name": "Kenguru on my own",
+  "url": "https://bakonkurs.by",
+  "tests": [{
+    "id": "6b3cc9a2-a244-428b-9074-4241ccdf9851",
+    "name": "test3",
+    "commands": [{
+      "id": "b39d960e-dfca-46cb-b361-246c58a06579",
+      "comment": "",
+      "command": "open",
+      "target": "/kenguru/kenguru_rez.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2941728-59b6-418b-a466-9b3eadea1008",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1177x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd3d44d8-9d59-4dee-ab45-9da4c7cf8512",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1 класс",
+      "targets": [
+        ["linkText=1 класс", "linkText"],
+        ["css=tr:nth-child(1) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'1 класс')]", "xpath:link"],
+        ["xpath=//div[@id='rubr-cont']/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kenguru/kenguru_rez.php?kod=730&kl=1')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1 класс ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5d9a1a9-2da4-4919-8832-e74d74b13533",
+      "comment": "",
+      "command": "click",
+      "target": "id=kod_obl",
+      "targets": [
+        ["id=kod_obl", "id"],
+        ["name=kod_obl", "name"],
+        ["css=#kod_obl", "css:finder"],
+        ["xpath=//select[@id='kod_obl']", "xpath:attributes"],
+        ["xpath=//form[@id='form-vyborka']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "136c1909-440f-4cd8-9b3d-46b9840666fc",
+      "comment": "",
+      "command": "select",
+      "target": "id=kod_obl",
+      "targets": [],
+      "value": "label=г.Минск"
+    }, {
+      "id": "c1c70f29-ea15-4454-93b1-622866c2049f",
+      "comment": "",
+      "command": "click",
+      "target": "id=kod_obl",
+      "targets": [
+        ["id=kod_obl", "id"],
+        ["name=kod_obl", "name"],
+        ["css=#kod_obl", "css:finder"],
+        ["xpath=//select[@id='kod_obl']", "xpath:attributes"],
+        ["xpath=//form[@id='form-vyborka']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0bbfc0-ea26-4731-8526-74c84b67ad91",
+      "comment": "",
+      "command": "click",
+      "target": "id=kod_rn",
+      "targets": [
+        ["id=kod_rn", "id"],
+        ["name=kod_rn", "name"],
+        ["css=#kod_rn", "css:finder"],
+        ["xpath=//select[@id='kod_rn']", "xpath:attributes"],
+        ["xpath=//form[@id='form-vyborka']/table/tbody/tr[2]/td/select", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72c718ad-0187-44ef-94ef-17a430324335",
+      "comment": "",
+      "command": "select",
+      "target": "id=kod_rn",
+      "targets": [],
+      "value": "label=Первомайский"
+    }, {
+      "id": "313e3313-b87a-4252-a3da-3b77b1624021",
+      "comment": "",
+      "command": "click",
+      "target": "id=kod_rn",
+      "targets": [
+        ["id=kod_rn", "id"],
+        ["name=kod_rn", "name"],
+        ["css=#kod_rn", "css:finder"],
+        ["xpath=//select[@id='kod_rn']", "xpath:attributes"],
+        ["xpath=//form[@id='form-vyborka']/table/tbody/tr[2]/td/select", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65256b92-7f4a-4bf7-93e3-42c3e069176a",
+      "comment": "",
+      "command": "click",
+      "target": "id=kod_sch",
+      "targets": [
+        ["id=kod_sch", "id"],
+        ["name=kod_sch", "name"],
+        ["css=#kod_sch", "css:finder"],
+        ["xpath=//select[@id='kod_sch']", "xpath:attributes"],
+        ["xpath=//form[@id='form-vyborka']/table/tbody/tr[3]/td/select", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f45990c-39a5-45c1-863b-071fe88a1ace",
+      "comment": "",
+      "command": "select",
+      "target": "id=kod_sch",
+      "targets": [],
+      "value": "label=Гимназия №18"
+    }, {
+      "id": "de027fa0-cddc-42ab-b25c-8749c2266566",
+      "comment": "",
+      "command": "click",
+      "target": "id=kod_sch",
+      "targets": [
+        ["id=kod_sch", "id"],
+        ["name=kod_sch", "name"],
+        ["css=#kod_sch", "css:finder"],
+        ["xpath=//select[@id='kod_sch']", "xpath:attributes"],
+        ["xpath=//form[@id='form-vyborka']/table/tbody/tr[3]/td/select", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5bdf6c8-d48d-46de-bec4-42c42223c849",
+      "comment": "",
+      "command": "click",
+      "target": "name=vybor",
+      "targets": [
+        ["name=vybor", "name"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='vybor']", "xpath:attributes"],
+        ["xpath=//form[@id='form-vyborka']/table/tbody/tr[4]/td/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Выбрать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66b0ab88-beaa-4bb3-ad29-567557b1be33",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "XPATH= //*[@id='reportList']/tbody//tr//td[contains(text(24,00), '24,00')]",
+      "targets": [],
+      "value": "numberOfElements"
+    }, {
+      "id": "408681fe-2f10-4fb1-93b2-0c3eb4b0ab10",
+      "comment": "",
+      "command": "echo",
+      "target": "${numberOfElements}",
+      "targets": [],
+      "value": "28"
+    }, {
+      "id": "f566954e-6a38-48f3-b68d-4c232e05a5df",
+      "comment": "",
+      "command": "assert",
+      "target": "numberOfElements",
+      "targets": [],
+      "value": "0"
+    }]
+  }],
+  "suites": [{
+    "id": "9a0c0090-2e7a-4c3c-825d-bc89ee54593e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6b3cc9a2-a244-428b-9074-4241ccdf9851"]
+  }],
+  "urls": ["https://bakonkurs.by/"],
+  "plugins": []
+}
